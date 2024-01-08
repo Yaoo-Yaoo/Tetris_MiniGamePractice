@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9119db8cdb8921843a2121f2f230914a, type: 3}
+  m_Name: GameSetting
+  m_EditorClassIdentifier: 
+  column: 10
+  row: 20
+  emptySlotPrefab: {fileID: 5644869558462581623, guid: ed96c2989a1c15642b5a77fef4780552, type: 3}
+  startPos: {x: -405, y: -855, z: 0}
+  fallInterval: 0.5
+  fadeDuration: 0.5
+  singleLineScore: 100
+  itemMatrixStartIndex: 3
+  items:
+  - itemType: 0
+    itemColor: {r: 1, g: 0.59607846, b: 0.41568628, a: 1}
+    itemValues:
+    - matrixType: 0
+      lineOne: 01000000010000000100000001000000
+      lineTwo: 00000000000000000000000000000000
+    - matrixType: 1
+      lineOne: 01000000010000000100000001000000
+      lineTwo: 00000000000000000000000000000000
+  - itemType: 1
+    itemColor: {r: 0.7176471, g: 0.8235294, b: 0.5529412, a: 1}
+    itemValues:
+    - matrixType: 0
+      lineOne: 00000000010000000100000000000000
+      lineTwo: 00000000000000000100000001000000
+    - matrixType: 1
+      lineOne: 00000000010000000100000000000000
+      lineTwo: 01000000010000000000000000000000
+  - itemType: 2
+    itemColor: {r: 0.8627451, g: 1, b: 0.5764706, a: 1}
+    itemValues:
+    - matrixType: 0
+      lineOne: 00000000010000000100000000000000
+      lineTwo: 01000000010000000000000000000000
+    - matrixType: 1
+      lineOne: 01000000010000000000000000000000
+      lineTwo: 00000000010000000100000000000000
+  - itemType: 3
+    itemColor: {r: 0.79607844, g: 0.5568628, b: 0.52156866, a: 1}
+    itemValues:
+    - matrixType: 0
+      lineOne: 00000000010000000100000000000000
+      lineTwo: 00000000010000000100000000000000
+  - itemType: 4
+    itemColor: {r: 0.72156864, g: 0.94509804, b: 0.92941177, a: 1}
+    itemValues:
+    - matrixType: 0
+      lineOne: 00000000010000000000000000000000
+      lineTwo: 00000000010000000100000001000000
+    - matrixType: 1
+      lineOne: 01000000010000000100000000000000
+      lineTwo: 01000000000000000000000000000000
+    - matrixType: 0
+      lineOne: 01000000010000000100000000000000
+      lineTwo: 00000000000000000100000000000000
+    - matrixType: 1
+      lineOne: 00000000000000000100000000000000
+      lineTwo: 01000000010000000100000000000000
+  - itemType: 5
+    itemColor: {r: 0.72156864, g: 0.94509804, b: 0.8, a: 1}
+    itemValues:
+    - matrixType: 0
+      lineOne: 00000000000000000100000000000000
+      lineTwo: 01000000010000000100000000000000
+    - matrixType: 1
+      lineOne: 01000000010000000100000000000000
+      lineTwo: 00000000000000000100000000000000
+    - matrixType: 0
+      lineOne: 01000000010000000100000000000000
+      lineTwo: 01000000000000000000000000000000
+    - matrixType: 1
+      lineOne: 01000000000000000000000000000000
+      lineTwo: 01000000010000000100000000000000
+  - itemType: 6
+    itemColor: {r: 0.94509804, g: 0.94509804, b: 0.72156864, a: 1}
+    itemValues:
+    - matrixType: 0
+      lineOne: 00000000010000000000000000000000
+      lineTwo: 01000000010000000100000000000000
+    - matrixType: 1
+      lineOne: 01000000010000000100000000000000
+      lineTwo: 00000000010000000000000000000000
+    - matrixType: 0
+      lineOne: 01000000010000000100000000000000
+      lineTwo: 00000000010000000000000000000000
+    - matrixType: 1
+      lineOne: 00000000010000000000000000000000
+      lineTwo: 01000000010000000100000000000000
+  fallTargetColor: {r: 0.90588236, g: 0.85490197, b: 0.7882353, a: 0.69803923}
+  nextItemEmptySlotPrefab: {fileID: 6715217774169623310, guid: b41317d8ed1e4cb41bf8e2f89dd4717b, type: 3}
+  nextItemPanelColumn: 4
+  nextItemPanelRow: 2
+  nextItemStartPos: {x: -135, y: -45, z: 0}
